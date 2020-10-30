@@ -7,7 +7,7 @@ This program is to write a console application where we can add and remove the p
 
 import java.util.*;
 class PQueue {
-	public static void main(String args[])  {
+	public static void main(String[] args)  {
 
 		//  The Scanner class is used to get user input and it is found in the java.util package.
 		Scanner input = new Scanner(System.in);		 
@@ -18,7 +18,6 @@ class PQueue {
 		int size = 1, count = 0, counter = 0;
 		String str, str1, str2;
 		String str3 = "quit";
-		String temp;
 
 		//  Initialize arraylist string type named as a Queue
 		ArrayList<String> Queue = new ArrayList<String>();
